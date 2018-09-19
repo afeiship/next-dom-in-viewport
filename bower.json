@@ -1,0 +1,28 @@
+{
+  "name": "next-dom-in-viewport",
+  "version": "0.0.1",
+  "description": "Judge element if is in viewport",
+  "main": "dist/next-dom-in-viewport.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-dom-in-viewport",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}

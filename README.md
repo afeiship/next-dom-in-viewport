@@ -6,7 +6,15 @@
 npm install -S afeiship/next-dom-in-viewport --registry=https://registry.npm.taobao.org
 ```
 
+## resouces:
++ https://github.com/egoist/element-in-view
+
 ## usage:
 ```js
-//DOCS here!
+import nxDomInViewport from 'next-dom-in-viewport';
+
+window.addEventListener('scroll', () => {
+  nxDomInViewport(element);
+  //=> true or false
+});
 ```

@@ -1,8 +1,8 @@
 {
-  "name": "next-dom-in-viewport",
+  "name": "next-element-in-viewport",
   "version": "0.0.1",
   "description": "Judge element if is in viewport",
-  "main": "dist/next-dom-in-viewport.js",
+  "main": "dist/next-element-in-viewport.js",
   "authors": [
     "afei"
   ],
@@ -10,7 +10,7 @@
   "keywords": [
     "next"
   ],
-  "homepage": "https://github.com/afeiship/next-dom-in-viewport",
+  "homepage": "https://github.com/afeiship/next-element-in-viewport",
   "moduleType": [
     "amd"
   ],

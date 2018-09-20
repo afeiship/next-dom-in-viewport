@@ -3,7 +3,7 @@
   var global = global || this || window || Function('return this')();
   var nx = global.nx || require('next-js-core2');
 
-  nx.domInViewport = function (inElement, inOptions) {
+  nx.elementInViewport = function (inElement, inOptions) {
     var options = nx.mix({ offset: 0, threshold: 0 }, inOptions);
     var offset = options.offset;
     var threshold = options.threshold;
@@ -36,7 +36,7 @@
   };
 
   if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.domInViewport;
+    module.exports = nx.elementInViewport;
   }
 
 }());

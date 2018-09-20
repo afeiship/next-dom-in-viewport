@@ -1,9 +1,9 @@
-# next-dom-in-viewport
+# next-element-in-viewport
 > Judge element if is in viewport
 
 ## install:
 ```bash
-npm install -S afeiship/next-dom-in-viewport --registry=https://registry.npm.taobao.org
+npm install -S afeiship/next-element-in-viewport --registry=https://registry.npm.taobao.org
 ```
 
 ## resouces:
@@ -11,10 +11,10 @@ npm install -S afeiship/next-dom-in-viewport --registry=https://registry.npm.tao
 
 ## usage:
 ```js
-import nxDomInViewport from 'next-dom-in-viewport';
+import nxElementInViewport from 'next-element-in-viewport';
 
 window.addEventListener('scroll', () => {
-  nxDomInViewport(element);
+  nxElementInViewport(element);
   //=> true or false
 });
 ```

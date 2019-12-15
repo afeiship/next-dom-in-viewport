@@ -10,5 +10,9 @@ npm install -S @feizheng/next-element-in-viewport
 ```js
 import '@feizheng/next-element-in-viewport';
 
-//DOCS here!
+// scroll into view when element not in the viewport
+const el = document.querySelector('.to-scroll-element');
+if (!nx.elementInViewport(el)) {
+  el.scrollIntoView();
+}
 ```

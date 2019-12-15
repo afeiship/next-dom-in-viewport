@@ -1,7 +1,7 @@
 (function () {
 
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.elementInViewport = function (inElement, inOptions) {
     var options = nx.mix({ offset: 0, threshold: 0 }, inOptions);
@@ -34,6 +34,7 @@
       intersection.l >= (offset.left || offset + elementThreshold.x)
     );
   };
+
 
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.elementInViewport;

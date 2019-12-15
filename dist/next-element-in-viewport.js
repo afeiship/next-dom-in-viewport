@@ -1,7 +1,15 @@
+/*!
+ * name: @feizheng/next-element-in-viewport
+ * url: https://github.com/afeiship/next-element-in-viewport
+ * version: 1.0.0
+ * date: 2019-12-15T09:46:43.364Z
+ * license: MIT
+ */
+
 (function () {
 
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('next-js-core2');
+  var nx = global.nx || require('@feizheng/next-js-core2');
 
   nx.elementInViewport = function (inElement, inOptions) {
     var options = nx.mix({ offset: 0, threshold: 0 }, inOptions);
@@ -35,8 +43,11 @@
     );
   };
 
+
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.elementInViewport;
   }
 
 }());
+
+//# sourceMappingURL=next-element-in-viewport.js.map

@@ -12,7 +12,7 @@ import '@feizheng/next-element-in-viewport';
 
 // scroll into view when element not in the viewport
 const el = document.querySelector('.to-scroll-element');
-if (!nx.elementInViewport(el)) {
+if (el && !nx.elementInViewport(el)) {
   el.scrollIntoView();
 }
 ```

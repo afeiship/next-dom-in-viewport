@@ -1,7 +1,15 @@
-(function () {
+/*!
+ * name: @jswork/next-element-in-viewport
+ * description: Detect element if is in viewport.
+ * homepage: https://github.com/afeiship/next-element-in-viewport
+ * version: 1.0.0
+ * date: 2020-11-22 17:37:20
+ * license: MIT
+ */
 
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.elementInViewport = function (inElement, inOptions) {
     var options = nx.mix({ offset: 0, threshold: 0 }, inOptions);
@@ -21,7 +29,6 @@
       l: right
     };
 
-
     var elementThreshold = {
       x: threshold * width,
       y: threshold * height
@@ -39,5 +46,4 @@
   if (typeof module !== 'undefined' && module.exports) {
     module.exports = nx.elementInViewport;
   }
-
-}());
+})();

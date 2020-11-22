@@ -3,7 +3,7 @@
  * description: Detect element if is in viewport.
  * homepage: https://github.com/afeiship/next-element-in-viewport
  * version: 1.0.0
- * date: 2020-11-22 17:37:20
+ * date: 2020-11-22 17:45:43
  * license: MIT
  */
 
